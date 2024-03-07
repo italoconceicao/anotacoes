@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+    width: 100%;
+    /* background-color: BurlyWood; */
+    background: rgb(245, 222, 179);
+    background: linear-gradient(171deg, rgba(245, 222, 179, 1) 0%, rgba(222, 184, 135, 1) 100%);
+}
+
+#buttonArea {
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#buttonArea div {
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-style: outset;
+    border-width: 8px;
+    border-color: black;
+    /* shadow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#buttonArea div p {
+    font-family: "Madimi One", sans-serif;
+    font-size: 100px;
+    font-weight: 500;
+    color: #252525
+}
