@@ -1,4 +1,7 @@
 html {
+    margin: 0;
+    padding: 0;
+    border: 0;
     height: 100%;
     width: 100%;
     /* background-color: BurlyWood; */
@@ -6,11 +9,35 @@ html {
     background: linear-gradient(171deg, rgba(245, 222, 179, 1) 0%, rgba(222, 184, 135, 1) 100%);
 }
 
-#buttonArea {
-    height: 12vh;
+header {
+    margin-top: -3%;
+    font-family: "Allison", cursive;
+    height: 30vh;
+    font-size: 400%;
+    text-align: center;
+}
+
+#main {
+    width: 99vw;
     display: flex;
-    justify-content: center;
-    align-items: baseline;
+}
+
+#main div {
+    margin: 1vw;
+    height: 10vw;
+    width: 10vw;
+    background-color: white;
+}
+
+#buttonArea {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 99vw;
+    height: 12vh;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: baseline; */
 }
 
 #buttonArea div {
@@ -21,11 +48,9 @@ html {
     border-style: outset;
     border-width: 8px;
     border-color: black;
-    /* shadow */
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 #buttonArea div p {
@@ -33,4 +58,11 @@ html {
     font-size: 100px;
     font-weight: 500;
     color: #252525
+}
+
+#button {
+    position: fixed;
+    margin: 0 auto;
+    right: 47%;
+    top: 70%;
 }
